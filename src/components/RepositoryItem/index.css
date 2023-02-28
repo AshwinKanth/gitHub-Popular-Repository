@@ -1,0 +1,33 @@
+.repositoryItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8ff;
+  padding: 15px;
+  margin: 15px;
+  width: 290px;
+}
+.avatarImg {
+  width: 30%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.repositoryName {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #e73959;
+  text-align: center;
+}
+.icon {
+  width: 20px;
+}
+.count {
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
